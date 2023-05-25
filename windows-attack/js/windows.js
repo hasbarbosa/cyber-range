@@ -10,7 +10,7 @@ const badPasswords = ['123456', '123456789', 'password', 'qwerty', '12345678',
   '123', '000000', '123321', '1q2w3e4r', 'qwertyuiop'];
 // Default user data
 let accountUserName = 'Administrator';
-let accountUserPassword;
+let accountUserPassword = 'admin';
 
 // Conditional local storage parsing that generates default user data if null
 function dataRetrieval() {
